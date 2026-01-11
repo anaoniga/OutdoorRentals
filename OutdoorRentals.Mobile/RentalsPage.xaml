@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OutdoorRentals.Mobile.RentalsPage"
+             Title="Rentals">
+
+    <VerticalStackLayout Padding="16" Spacing="12">
+
+        <Button Text="Add Rental" Clicked="OnAddClicked" />
+
+        <CollectionView x:Name="RentalsList" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Padding="12">
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="{Binding CustomerName}" FontSize="16" />
+                            <Label Text="{Binding StartDate, StringFormat='Start: {0:yyyy-MM-dd}'}" Opacity="0.8" />
+                            <Label Text="{Binding EndDate, StringFormat='End: {0:yyyy-MM-dd}'}" Opacity="0.8" />
+
+                            <HorizontalStackLayout Spacing="10">
+                                <Button Text="Items"
+                                        Clicked="OnItemsClicked"
+                                        CommandParameter="{Binding .}" />
+                                <Button Text="Edit"
+                                        Clicked="OnEditClicked"
+                                        CommandParameter="{Binding .}" />
+                                <Button Text="Delete"
+                                        Clicked="OnDeleteClicked"
+                                        CommandParameter="{Binding .}" />
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

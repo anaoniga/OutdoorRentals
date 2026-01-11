@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OutdoorRentals.Mobile.RentalEditPage"
+             Title="Rental">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="12">
+
+            <Label Text="Customer" />
+            <Picker x:Name="CustomerPicker"
+                    Title="Select customer"
+                    ItemDisplayBinding="{Binding FullName}" />
+
+            <Label Text="Start date" />
+            <DatePicker x:Name="StartDatePicker" />
+
+            <Label Text="End date" />
+            <DatePicker x:Name="EndDatePicker" />
+
+            <Button Text="Save" Clicked="OnSaveClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutdoorRentals.Web", "..\OutdoorRentals.Web\OutdoorRentals.Web.csproj", "{4C3BEE14-D25E-5C9B-D10B-B355BCCAACB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutdoorRentals.Mobile", "..\OutdoorRentals.Mobile\OutdoorRentals.Mobile.csproj", "{D83EB4EF-2253-13BC-4B8B-E354BB88961A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C3BEE14-D25E-5C9B-D10B-B355BCCAACB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3BEE14-D25E-5C9B-D10B-B355BCCAACB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3BEE14-D25E-5C9B-D10B-B355BCCAACB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3BEE14-D25E-5C9B-D10B-B355BCCAACB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83EB4EF-2253-13BC-4B8B-E354BB88961A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83EB4EF-2253-13BC-4B8B-E354BB88961A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83EB4EF-2253-13BC-4B8B-E354BB88961A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D83EB4EF-2253-13BC-4B8B-E354BB88961A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83EB4EF-2253-13BC-4B8B-E354BB88961A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83EB4EF-2253-13BC-4B8B-E354BB88961A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {909B914E-E575-4AC5-B893-5C250A202A9E}
+	EndGlobalSection
+EndGlobal

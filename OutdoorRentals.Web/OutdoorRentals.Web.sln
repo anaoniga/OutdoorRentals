@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutdoorRentals.Web", "OutdoorRentals.Web.csproj", "{D4ADB313-35D0-4F39-8616-1DDB415AFD3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutdoorRentals.Mobile", "..\OutdoorRentals.Mobile\OutdoorRentals.Mobile.csproj", "{264FFE9D-1A15-4314-829B-DC2A2935BDBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4ADB313-35D0-4F39-8616-1DDB415AFD3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4ADB313-35D0-4F39-8616-1DDB415AFD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4ADB313-35D0-4F39-8616-1DDB415AFD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4ADB313-35D0-4F39-8616-1DDB415AFD3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264FFE9D-1A15-4314-829B-DC2A2935BDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264FFE9D-1A15-4314-829B-DC2A2935BDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264FFE9D-1A15-4314-829B-DC2A2935BDBC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{264FFE9D-1A15-4314-829B-DC2A2935BDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264FFE9D-1A15-4314-829B-DC2A2935BDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264FFE9D-1A15-4314-829B-DC2A2935BDBC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6D6E561-EF22-44A9-8D04-20ED7541130F}
+	EndGlobalSection
+EndGlobal

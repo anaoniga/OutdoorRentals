@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OutdoorRentals.Mobile.RentalItemEditPage"
+             Title="Rental Item">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="12">
+
+            <Label Text="Equipment" />
+            <Picker x:Name="EquipmentPicker"
+                    Title="Select equipment"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedIndexChanged="OnEquipmentChanged" />
+
+            <Label Text="Quantity" />
+            <Entry x:Name="QtyEntry" Keyboard="Numeric" Placeholder="e.g. 1" />
+
+            <Label Text="Rate per day" />
+            <Entry x:Name="RateEntry" Keyboard="Numeric" Placeholder="e.g. 25.5" />
+
+            <Button Text="Save" Clicked="OnSaveClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
